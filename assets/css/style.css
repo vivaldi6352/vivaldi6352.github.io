@@ -85,8 +85,8 @@ td:nth-child(1) {
 
 .full_shot {
     display: block;
-    max-width: 300px;
-    max-height: 350px;
+    max-width: 600px;
+    max-height: 700px;
     width: auto;
     height: auto;
     margin: auto;
