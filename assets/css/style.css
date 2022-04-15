@@ -1,0 +1,93 @@
+:root {
+    --dark: #000000;
+    --light: #FFFFFF;
+    --bgdark: #252525;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 3.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.25rem;
+}
+
+.container {
+    width: 100vw;
+    height: calc(100vh - 3.5rem);
+    overflow: scroll;
+}
+
+table {
+    border-spacing: 0;
+    font-weight: bold;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: var(--dark);
+    color: var(--light);
+    font-weight: 600;
+    padding: 4px;
+    border: 2px solid var(--light);
+}
+
+td {
+    border: 2px solid var(--light);
+    height: 350px;
+    text-align: center;
+    padding: 15px;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    position: sticky;
+    left: 0;
+    background-color: var(--light);
+}
+
+.tablehead .en-name {
+    background-color: var(--dark);
+    z-index: 9;
+}
+
+.tablehead .gif {
+    background-color: var(--dark);
+}
+
+.name, .en-name {
+    min-width: 110px;
+    font-weight: bold;
+}
+
+.gif {
+    min-width: 100px;
+    background-color: var(--bgdark);
+}
+
+.art, .big-gif {
+    min-width: 250px;
+    width: 250px;
+}
+
+.full_shot {
+    display: block;
+    max-width: 300px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
