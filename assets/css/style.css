@@ -69,12 +69,37 @@ td:nth-child(1) {
 }
 
 .name, .en-name {
-    min-width: 110px;
+    min-width: 150px;
     font-weight: bold;
 }
 
+.Fire {
+    color: #ea354c;
+}
+
+.Water {
+    color: #448aff;
+}
+
+.Thunder {
+    color: #ffd71c;
+}
+
+.Wind {
+    color: #77d930;
+}
+
+.Light {
+    /* color: #f5ffbb; */
+    color: #b6bd89
+}
+
+.Dark {
+    color: #5a3a60;
+}
+
 .gif {
-    min-width: 100px;
+    min-width: 150px;
     background-color: var(--bgdark);
 }
 
@@ -86,7 +111,7 @@ td:nth-child(1) {
 .full_shot {
     display: block;
     max-width: 300px;
-    max-height: 350px;
+    max-height: 300px;
     width: auto;
     height: auto;
     margin: auto;
