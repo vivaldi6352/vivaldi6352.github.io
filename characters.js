@@ -4532,14 +4532,14 @@ function charactersTemplate(unit) {
     <td>${unit.jpName}</th>
     <td>${unit.glTitle} ${unit.glName}</th>
     <td class="${unit.enAttribute}">${unit.jpAttribute}</br>${unit.enAttribute}</th>
-    <td><img class="full_shot" src="./assets/rarity${unit.rarity}/${unit.devName}/full_shot_1440_1920_0.png" alt=""></th>
-    <td><img class="full_shot" src="./assets/rarity${unit.rarity}/${unit.devName}/full_shot_1440_1920_1.png" alt=""></th>
-    <td class="gif"><img src="./assets/rarity${unit.rarity}/${unit.devName}/skill_ready.gif" alt=""></th>
-    <td class="gif"><img src="./assets/rarity${unit.rarity}/${unit.devName}/special.gif" alt=""></th>
-    <td class="gif"><img src="./assets/rarity${unit.rarity}/${unit.devName}/kachidoki.gif" alt=""></th>
-    <td class="gif"><img src="./assets/rarity${unit.rarity}/${unit.devName}/walk_front.gif" alt=""></th>
-    <td class="gif"><img src="./assets/rarity${unit.rarity}/${unit.devName}/walk_back.gif" alt=""></th>
-    <td class="gif"><img src="./assets/rarity${unit.rarity}/${unit.devName}/neutral.gif" alt=""></th>
+    <td><img class="full_shot" loading="lazy" src="./assets/rarity${unit.rarity}/${unit.devName}/full_shot_1440_1920_0.png" alt=""></th>
+    <td><img class="full_shot" loading="lazy" src="./assets/rarity${unit.rarity}/${unit.devName}/full_shot_1440_1920_1.png" alt=""></th>
+    <td class="gif"><img loading="lazy" src="./assets/rarity${unit.rarity}/${unit.devName}/skill_ready.gif" alt=""></th>
+    <td class="gif"><img loading="lazy" src="./assets/rarity${unit.rarity}/${unit.devName}/special.gif" alt=""></th>
+    <td class="gif"><img loading="lazy" src="./assets/rarity${unit.rarity}/${unit.devName}/kachidoki.gif" alt=""></th>
+    <td class="gif"><img loading="lazy" src="./assets/rarity${unit.rarity}/${unit.devName}/walk_front.gif" alt=""></th>
+    <td class="gif"><img loading="lazy" src="./assets/rarity${unit.rarity}/${unit.devName}/walk_back.gif" alt=""></th>
+    <td class="gif"><img loading="lazy" src="./assets/rarity${unit.rarity}/${unit.devName}/neutral.gif" alt=""></th>
     </tr>
   `
 };
